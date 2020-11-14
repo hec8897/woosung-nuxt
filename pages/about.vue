@@ -2,11 +2,12 @@
   <div class="container">
     <div>
       <Logo />
-      <test />
-      <nuxt-link to="/about">about</nuxt-link>
       <h1 class="title">
         woosung-nuxt
       </h1>
+
+      <nuxt-link to="/">index</nuxt-link>
+
       <div class="links">
         <a
           href="https://nuxtjs.org/"
