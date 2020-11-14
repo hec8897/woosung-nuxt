@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <AppHeader />
-      <nuxt-link to="/about" tag='div'>about</nuxt-link>
+    <Banner />
   </div>
 </template>
 
