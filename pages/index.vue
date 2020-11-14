@@ -2,6 +2,7 @@
   <div class="container">
     <div>
       <Logo />
+      <test />
       <h1 class="title">
         woosung-nuxt
       </h1>
@@ -28,20 +29,19 @@
 </template>
 
 <script>
-export default {}
+export default {
+}
 </script>
 
-<style>
-.container {
+<style lang="scss">
+  .container {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.title {
+  .title {
   font-family:
     'Quicksand',
     'Source Sans Pro',
@@ -58,6 +58,9 @@ export default {}
   color: #35495e;
   letter-spacing: 1px;
 }
+}
+
+
 
 .subtitle {
   font-weight: 300;
@@ -71,3 +74,4 @@ export default {}
   padding-top: 15px;
 }
 </style>
+
