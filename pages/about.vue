@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        woosung-nuxt
+        woosung-nuxt build
       </h1>
 
       <nuxt-link to="/">index123123</nuxt-link>
