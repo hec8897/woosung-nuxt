@@ -1,5 +1,3 @@
-import mysql from 'mysql';
-
 export default {
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
   ssr: false,
@@ -39,8 +37,6 @@ export default {
   ],
   serverMiddleware: [
     { path: '/api', handler: '~/api/index.js' },
-    mysql
-
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
