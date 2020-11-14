@@ -6,7 +6,7 @@
         woosung-nuxt
       </h1>
 
-      <nuxt-link to="/">index</nuxt-link>
+      <nuxt-link to="/">index123123</nuxt-link>
 
       <div class="links">
         <a

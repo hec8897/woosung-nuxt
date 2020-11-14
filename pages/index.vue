@@ -5,7 +5,7 @@
       <test />
       <nuxt-link to="/about">about</nuxt-link>
       <h1 class="title">
-        woosung-nuxt
+        woosung-nuxt123
       </h1>
       <div class="links">
         <a
