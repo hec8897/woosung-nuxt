@@ -36,24 +36,13 @@ export default {
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {
-    baseURL: 'http://localhost:3000', // Used as fallback if no runtime config is provided
-  },
-  publicRuntimeConfig: {
-    axios: {
-      browserBaseURL: process.env.BROWSER_BASE_URL
-    }
+    // baseURL: 'http://localhost:3000', // Used as fallback if no runtime config is provided
   },
 
-  privateRuntimeConfig: {
-    axios: {
-      baseURL: process.env.BASE_URL
-    }
-  },
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
   },
   plugins: [
-    '~/plugins/axios.js',
      '@/plugins/plugins.js'// Only works on client side
   ]
 }
