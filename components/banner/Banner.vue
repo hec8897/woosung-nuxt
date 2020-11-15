@@ -2,30 +2,17 @@
     <div class='slider'>
       <carousel :perPage='1' :loop='true' :autoplay='true' :autoplayTimeout="3500">
         <slide>
-            <Indexbanner />
+          <Indexbanner />
         </slide>
         <slide>
-          <!-- <ProBanner btn='true' product='pro' /> -->
-          123
+          <Productbanner product='pro'/>
         </slide>
         <slide>
-          <!-- <ProBanner btn='true' product='pos' /> -->
-          123
+           <Productbanner product='pos'/>
         </slide>
         <slide>
-            123
-          <!-- <ProBanner btn='true' product='plus' /> -->
+          <Productbanner product='plus'/>
         </slide>
-
       </carousel>
     </div>
 </template>
-
-<script>
-import { carousel,slide } from 'vue-carousel';
-
-
-export default {
-    
-}
-</script>
