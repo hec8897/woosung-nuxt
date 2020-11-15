@@ -5,7 +5,7 @@
           <Indexbanner />
         </slide>
         <slide>
-          <Productbanner product='pro'/>
+          <Productbanner product='pro' btn='true'/>
         </slide>
         <slide>
            <Productbanner product='pos'/>
@@ -16,3 +16,17 @@
       </carousel>
     </div>
 </template>
+
+
+<style lang="scss">
+
+      .VueCarousel-pagination {
+        position: relative;
+        top: -100px;
+        @media (max-width: 1024px) {
+          display: none;
+          
+        }
+      }
+  
+</style>

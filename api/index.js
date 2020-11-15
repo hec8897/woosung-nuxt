@@ -9,7 +9,12 @@ app.get('/', function(req, res) {
   res.send('API root')
 })
 
+app.use('/api/file', express.static('upload'));//업로드 파일 정적 구동
+
+
 app.use('/faq',require('./router/faq'));//faq 게시판 데이터
+app.use('/support',require('./router/support'));//support 게시판 데이터
+app.use('/meterial',require('./router/item'));//support 게시판 데이터
 
 
 

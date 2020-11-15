@@ -16,6 +16,8 @@
     </header>
 </template>
 
+
+
 <style lang="scss">
 header{
     background: rgba(0,0,0,.3);

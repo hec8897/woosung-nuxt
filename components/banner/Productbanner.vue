@@ -19,7 +19,8 @@
                 <p v-if="product == 'pro'" v-html="pro.desc">복잡하고 어려워진 농약판매 우성 소프트가 해결 해드리겠습니다.</p>
                 <p v-if="product == 'pos'" v-html="pos.desc">복잡하고 어려워진 농약판매 우성 소프트가 해결 해드리겠습니다.</p>
                 <p v-if="product == 'plus'" v-html="plus.desc">복잡하고 어려워진 농약판매 우성 소프트가 해결 해드리겠습니다.</p>
-
+                
+                <nuxt-link :to="'/product/'+product"  tag='div' class="btn">자세히 보기</nuxt-link>
             </div>
         </div>
     </div>
@@ -27,7 +28,7 @@
 
 <script>
 export default {
-    props:['product'],
+    props:['product','btn'],
     data(){
         return{
             pro:{
@@ -95,6 +96,16 @@ div.banner.product{
                 @media (max-width:1024px) {
                     text-align: center;
                 }
+            }
+            div.btn{
+            	// display: inline-block;
+                margin: 20px 0;
+                color: #444;
+                box-sizing: border-box;
+                background-color: #4682b4;
+                color: #fff;
+                cursor: pointer;
+                border-radius: 3px;
             }
         }
 
