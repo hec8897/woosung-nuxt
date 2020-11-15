@@ -59,6 +59,14 @@ html,body{
     margin: 0 auto;
 }
 
+.flex{
+	display: flex;
+	flex-direction: row;
+	&.column{
+		flex-direction: column;
+	}
+}
+
 div.btn{
 	padding: 10px 25px;
 	border: 1px solid #d0d0d0;

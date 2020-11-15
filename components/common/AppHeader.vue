@@ -9,7 +9,7 @@
               <nuxt-link to="/product" tag='li'>제품 소개 </nuxt-link>
               <nuxt-link to="/information" tag='li'>정보 공유 </nuxt-link>
               <nuxt-link to="/board" tag='li'>고객 지원 센터 </nuxt-link>
-              <nuxt-link to="/" tag='li'>팜 카페 </nuxt-link>
+              <nuxt-link to="/" tag='li'>팜 카123페</nuxt-link>
           </ul>
           <div class="ham"></div>
         </div>

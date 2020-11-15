@@ -2,6 +2,11 @@
   "name": "woosung-nuxt",
   "version": "1.0.0",
   "private": true,
+  "config": {
+    "nuxt": {
+      "port": "8080"
+    }
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
