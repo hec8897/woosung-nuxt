@@ -1,4 +1,8 @@
 export default {
+  router: {
+    // mode: 'hash'
+    // base: '/app/'
+  },
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
   ssr: false,
 
@@ -32,6 +36,7 @@ export default {
   ],
   serverMiddleware: [
     { path: '/api', handler: '~/api/index.js' },
+    { path: '/user_board', handler: '~/api/user_board.js' },
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
